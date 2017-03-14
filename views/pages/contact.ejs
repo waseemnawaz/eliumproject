@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <% include ../partials/head %>
+
+  <body>
+  <% include ../partials/nav %>  
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    
+    <div class="container-fluid anchor" id="kntkto">
+      <!--div class="jumbotron" id="new"-->
+      <div class="black">
+        <div class="contacts">
+          <h3>Contact me</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="imail">
+              <p>You can write me an email:</p>
+              <p class="iimail"><a class="mail" href="mailto:waseemhijodenawaz@yahoo.es">waseemhijodenawaz@yahoo.es</a></p>
+              <p>Reach out to me on the social media platforms below or by filling out the simple form on the right:</p>
+            </div>
+            <div class="socialmediaz">
+              <div class="row">
+                <div class="col-xs-4">
+                  <a href="https://github.com/waseemnawaz"><img src="/public/img/Github1.png" class="img-responsive social"></a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="https://twitter.com/guasimnaguaz"><img src="/public/img/Twitter1.png" class="img-responsive social"></a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="https://www.linkedin.com/in/waseem72nawaz"><img src="/public/img/LinkedIn1.png" class="img-responsive social"></a>
+                </div>
+              </div>
+            </div>
+            <!--div id="map"></div-->
+          </div><!-- end contacts col-->
+
+          <div class="col-lg-8 col-md-8">
+            <div class="contactform">
+              <form action="https://formspree.io/wasimhijodenawaz@gmail.com" method="post">
+                <div class="form-group">
+                  <label for="name">Name *</label>
+                  <input type="text" placeholder="Your name here" class="form-control" id="name" required="required" title="name" name="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" placeholder="Your email here" class="form-control" id="email" required="required" name="_replyto">
+                </div>
+                  <label for="yourtext">Message</label>
+                  <textarea name="message" style="resize:none" cols="40" rows="5" placeholder="Your message here" class="form-control message-box" id="yourtext" minlength=20></textarea>
+                  <p id="char-count"></p>
+                  <p id="visible-comment"></p>
+                  <button type="submit" class="btn btn-primary" id="txtbuttn" value="Send">Submit</button>
+              </form>
+            </div><!-- contactform -->
+          </div><!-- col -->
+        </div><!--row-->
+      <!--/div--><!-- jumbotron -->
+      </div><!-- black -->
+    </div><!-- end container kntkt -->
+    
+    
+    <% include ../partials/footer %>
+
+
+    <% include ../partials/scripts %>
+  </body>
+</html>
