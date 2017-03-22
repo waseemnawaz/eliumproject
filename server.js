@@ -27,9 +27,38 @@ app.get("/abt", function(req, res){
     res.render("pages/about.ejs");
 })
 
+app.get("/blog", function(req, res){
+	res.render("pages/blog.ejs");
+})
+
 app.get("/kntkto", function(req, res){
     res.render("pages/contact.ejs");
 })
+
+app.get("/work", function(req, res){
+	res.render("pages/work.ejs");
+})
+
+app.get("/artist", function(req, res){
+	res.render("pages/artist.ejs");
+})
+
+app.get("/projects", function(req, res){
+	res.render("pages/projects.ejs");
+})
+
+app.get("/gallery", function(req, res){
+	res.render("pages/gallery.ejs");
+})
+
+app.get("/store", function(req, res){
+	res.render("pages/store.ejs");
+})
+
+
+
+
+
 
 // Listen for requests
 var server = app.listen(app.get('port'), function() {

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <% include ../partials/head %>
+
+  <body>
+    
+  <% include ../partials/nav %>    
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+   
+    <div class="container anchor" id="projects">
+      <div class="workintro">
+        <h3>My work</h3>
+        <p>Below are some of the static and Ruby on Rails sites that I have created. Some of the pages are slow to load at first as they are hosted on Heroku for free. So please be patient. The link to my Github is at the bottom of this site.</p>
+      </div><!-- workintro -->
+      
+        <div class="row" id="rowes">
+            <div class="col-md-4 portfolio-item">
+                <!--a href="https://bikeberlin.herokuapp.com/">
+                    <img class="img-responsive" src="/public/img/bike1.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="https://bikeberlin.herokuapp.com/">BikeBerlin</a>
+                </h3-->
+                <a href="/projects/">
+                    <img class="img-responsive" src="/public/img/bike1.jpg" alt="">
+                </a>
+                <p>A complete working Ruby on Rails website created as part of my Web Development course at Careerfoundry.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="https://maurowgomez.herokuapp.com/">
+                    <img class="img-responsive" src="/public/img/maurow.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="https://maurowgomez.herokuapp.com/">Maurow Gómez</a>
+                </h3>
+                <p>A personal website, including a blog, made using Ruby on Rails.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="https://mynewblogg.herokuapp.com/">
+                    <img class="img-responsive" src="/public/img/forest.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="https://mynewblogg.herokuapp.com/">Waseem's blog</a>
+                </h3>
+                <p>A blog made using Ruby on Rails. Still being improved.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row" id="rowesone">
+            <div class="col-md-4 portfolio-item">
+                <a href="https://alpacasweatr.herokuapp.com/">
+                    <img class="img-responsive" src="/public/img/sweatr12.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="https://alpacasweatr.herokuapp.com/">Sweatr</a>
+                </h3>
+                <p>A basic Ruby on Rails website for selling handmade knitware made in Peru by artisan craftswomen.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="http://director-karl-30485.bitballoon.com/">
+                    <img class="img-responsive" src="/public/img/laleche.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="http://director-karl-30485.bitballoon.com/">Cebichería La Leche</a>
+                </h3>
+                <p>A static website for a cebiche restaurant in Lima, Peru.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="https://uneteperu.github.io/">
+                    <img class="img-responsive" src="/public/img/unete.jpg" alt="">
+                </a>
+                <h3>
+                    <a href="https://uneteperu.github.io/">Unete</a>
+                </h3>
+                <p>A static website for an organisation that helps students from socially and economically disadvantaged backgrounds create networks and find employment.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div><!-- projects -->
+    
+    <% include ../partials/footer %>
+
+
+    <% include ../partials/scripts %>
+  </body>
+</html>
